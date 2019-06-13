@@ -1,0 +1,47 @@
+<app-toolbar></app-toolbar>
+
+<div class="wrapper">
+
+  <div class="wrapper_slider" *ngIf="!slideContent">
+    <div class="wrapper_slider_header">
+      <p>Заголовок</p>
+      <div class="wrapper_slider_header_button">
+        <button (click)="Slide()">Свернуть</button>
+        <button>Button</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper_bookmark" *ngIf="slideContent">
+    <div class="wrapper_bookmark_header">
+      <p>Заголовок</p>
+    </div>
+    <div class="wrapper_bookmark_button">
+      <button (click)="Slide()">Развернуть</button>
+    </div>
+  </div>
+
+
+
+  <div class="wrapper_content">
+    <div class="wrapper_content_header">
+      <p>Заголовок</p>
+      <div class="wrapper_content_header_button">
+        <button>Button</button>
+        <button>Button</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper_slider">
+    <div class="wrapper_slider_header">
+      <p>Заголовок</p>
+      <div class="wrapper_slider_header_button">
+        <button>Свернуть</button>
+        <button>Button</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+  
